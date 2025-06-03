@@ -1,15 +1,13 @@
 {
   "name": "architecture-website",
   "version": "0.1.0",
-  "homepage": "https://ibrahimhalilakgl.github.io/BIAN.github.io/",
+  "homepage": "https://ibrahimhalilakgl.github.io/",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "npm run build && git add out && git commit -m \"Build static site for GitHub User Pages\" && git subtree push --prefix out origin main"
   },
   "dependencies": {
     "framer-motion": "^12.16.0",
@@ -23,6 +21,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "gh-pages": "^6.3.0",

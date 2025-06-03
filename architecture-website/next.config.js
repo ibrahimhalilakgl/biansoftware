@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   output: 'export',
   images: {
@@ -12,8 +13,9 @@ const nextConfig = {
       'norwellan.com',
     ],
   },
-  basePath: '/BIAN.github.io',
-  assetPrefix: '/BIAN.github.io/',
+  // Site kök dizinden yayınlanacağı için basePath ve assetPrefix kaldırılıyor
+  // basePath: '/BIAN',
+  // assetPrefix: '/BIAN/',
 };
 
 module.exports = nextConfig; 

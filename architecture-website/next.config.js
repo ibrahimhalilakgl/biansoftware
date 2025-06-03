@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
+    unoptimized: true,
     domains: [
       'images.unsplash.com',
       'norm-art.com',
@@ -10,6 +12,8 @@ const nextConfig = {
       'norwellan.com',
     ],
   },
+  basePath: '/BIAN.github.io',
+  assetPrefix: '/BIAN.github.io/',
 };
 
 module.exports = nextConfig; 

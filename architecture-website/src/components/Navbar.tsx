@@ -1,12 +1,8 @@
 'use client';
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <nav className="fixed top-0 z-50 w-full bg-white/80 backdrop-blur-md">
       <div className="container mx-auto px-4">

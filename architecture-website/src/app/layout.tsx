@@ -6,8 +6,8 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bian Mimarlık",
-  description: "Bian Mimarlık: Mimari Proje, İç Mimarlık, Proje Yönetimi, Uygulama ve 3D Görselleştirme Hizmetleri",
+  title: "BİAN Software - Web Tasarım & Geliştirme",
+  description: "BİAN Software: Modern web tasarım, web geliştirme, mobil uygulama geliştirme ve dijital çözümler. Profesyonel web sitesi tasarımı ve yazılım geliştirme hizmetleri.",
 };
 
 export default function RootLayout({
